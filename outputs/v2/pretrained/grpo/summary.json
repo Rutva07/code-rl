@@ -1,0 +1,16 @@
+{
+  "requested_programs": 3,
+  "baseline_valid_programs": 3,
+  "excluded_invalid_baselines": 0,
+  "correct_optimizations": 1,
+  "correct_optimization_rate": 0.3333333333333333,
+  "geometric_mean_speedup_all_valid_programs": 1.2855735845983982,
+  "runtime_reduction_from_geomean": 0.2221370974167992,
+  "output_correctness_selected": 1.0,
+  "threshold": 0.05,
+  "attempt_budget": 1,
+  "trials": 11,
+  "correctness_scope": "all downloaded public tests, not formal equivalence or hidden-test proof",
+  "measurement": "paired randomized native wall-clock timings including process startup",
+  "adapter_parameter_l1_change_from_sft": 9.018473125994205
+}

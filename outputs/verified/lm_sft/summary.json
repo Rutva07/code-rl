@@ -1,0 +1,7 @@
+{
+  "mode": "supervised_warm_start",
+  "steps": 4,
+  "eligible_real_train_pairs": 21,
+  "model": "ByteLM",
+  "seed": 42
+}

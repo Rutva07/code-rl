@@ -1,0 +1,15 @@
+{
+  "requested_programs": 24,
+  "baseline_valid_programs": 22,
+  "excluded_invalid_baselines": 2,
+  "correct_optimizations": 0,
+  "correct_optimization_rate": 0.0,
+  "geometric_mean_speedup_all_valid_programs": 1.0,
+  "runtime_reduction_from_geomean": 0.0,
+  "output_correctness_selected": 1.0,
+  "threshold": 0.05,
+  "attempt_budget": 3,
+  "trials": 11,
+  "correctness_scope": "all downloaded public tests, not formal equivalence or hidden-test proof",
+  "measurement": "paired randomized native wall-clock timings including process startup"
+}

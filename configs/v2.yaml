@@ -1,0 +1,39 @@
+dataset: PIE / CodeNet, original authors merged test archive
+seed: 42
+subsets:
+  training_programs: 64
+  heldout_programs: 24
+  heldout_cases: 2379
+  full_program_sft_pairs: 512
+planner:
+  actions: 7
+  input_features: 11
+  hidden_features: 64
+  supervised_steps: 400
+grpo:
+  steps: 12501
+  group_size: 4
+  trials: 5
+  learning_rate: 0.003
+  beta: 0.02
+  update_epochs_per_group: 2
+evaluation:
+  attempt_budget: 3
+  trials: 11
+  confirmation_trials: 21
+  minimum_runtime_reduction: 0.05
+  require_positive_bootstrap_lower_bound: true
+  final_recheck: true
+pretrained:
+  model: Qwen/Qwen2.5-Coder-0.5B-Instruct
+  revision: ea3f2471cf1b1f0db85067f1ef93848e38e88c25
+  dtype: bfloat16
+  lora_rank: 8
+  lora_targets: [q_proj, v_proj]
+  supervised_steps: 128
+  sft_max_total_tokens: 1024
+  grpo_steps: 2
+  grpo_group_size: 2
+  max_new_tokens: 256
+  evaluation_temperature: 0
+  threads: 4

@@ -1,0 +1,17 @@
+{
+  "mode": "supervised_edit_policy",
+  "steps": 400,
+  "real_training_pairs": 64,
+  "label_counts": {
+    "identity": 25,
+    "fast_io": 2,
+    "avoid_endl": 7,
+    "fast_io_avoid_endl": 0,
+    "remove_pause": 27,
+    "fast_io_remove_pause": 2,
+    "all_edits": 1
+  },
+  "seed": 42,
+  "label_rule": "source-to-target removal of pause/endl or addition of sync_with_stdio; otherwise preserve",
+  "target_code_visible_to_actor_at_inference": false
+}

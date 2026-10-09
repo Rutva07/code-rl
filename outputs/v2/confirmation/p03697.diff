@@ -1,0 +1,14 @@
+--- original.cpp
+
++++ optimized.cpp
+
+@@ -30,7 +30,7 @@
+
+ 
+ 
+ 
+-	system("pause");
++	(void)0;
+ 
+ 	return 0;
+ 

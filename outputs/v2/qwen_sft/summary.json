@@ -1,0 +1,11 @@
+{
+  "mode": "supervised_warm_start",
+  "steps": 128,
+  "eligible_real_train_pairs": 512,
+  "model": "HFLM",
+  "seed": 42,
+  "unique_pairs_trained": 128,
+  "trainable_parameters": 540672,
+  "dtype": "torch.bfloat16",
+  "threads": 4
+}

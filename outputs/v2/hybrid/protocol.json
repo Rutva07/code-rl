@@ -1,0 +1,12 @@
+{
+  "policy": "GRPO bounded edits + pretrained SFT fallback",
+  "max_source_chars": 300,
+  "max_new_tokens": 256,
+  "temperature": 0,
+  "attempts": 3,
+  "trials": 11,
+  "all_v2_test_programs": true,
+  "fallback_rule": "one generation after a bounded proposal or instead of preservation, for source <=300 chars",
+  "SFT_checkpoint_selected_after_three_program_pilot": true,
+  "confirmation": "fresh timing on frozen outputs; this is development evaluation, not an untouched final benchmark"
+}

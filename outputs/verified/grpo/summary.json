@@ -1,0 +1,17 @@
+{
+  "mode": "edit_policy_grpo",
+  "steps": 12501,
+  "group_size": 4,
+  "sampled_trajectories": 50004,
+  "distinct_measured_candidates": 56,
+  "unique_training_tasks": 23,
+  "informative_groups": 510,
+  "input_training_tasks": 24,
+  "excluded_invalid_baselines": 1,
+  "parameter_l1_change": 159.82928371429443,
+  "seed": 42,
+  "seconds": 91.67198872566223,
+  "checkpoint": "policy.pt",
+  "target_code_visible_to_actor": false,
+  "measurement_cache": "same task and exact candidate reuse; each sampled action remains a rollout"
+}

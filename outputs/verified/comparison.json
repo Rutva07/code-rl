@@ -1,0 +1,11 @@
+{
+  "shared_valid_tasks": 12,
+  "before_optimization_rate": 0.0,
+  "after_optimization_rate": 0.0,
+  "optimization_rate_gain_percentage_points": 0.0,
+  "optimization_rate_relative_gain_percent": null,
+  "runtime_reduction_vs_initial_percent": 0.0,
+  "small_sample_warning": "pilot estimates; native subprocess timings may be noisy",
+  "matching_attempt_budget": true,
+  "matching_trials": true
+}

@@ -1,0 +1,16 @@
+{
+  "requested_programs": 24,
+  "baseline_valid_programs": 22,
+  "excluded_invalid_baselines": 2,
+  "correct_optimizations": 3,
+  "correct_optimization_rate": 0.13636363636363635,
+  "geometric_mean_speedup_all_valid_programs": 1.086968508635025,
+  "runtime_reduction_from_geomean": 0.08001014559679998,
+  "output_correctness_selected": 1.0,
+  "threshold": 0.05,
+  "attempt_budget": 3,
+  "trials": 21,
+  "correctness_scope": "all cases in the supplied task split; see dataset provenance; not formal equivalence",
+  "measurement": "paired randomized native wall-clock timings including process startup",
+  "selection": "frozen outputs of the original three-proposal search; fresh timings, no retuning"
+}

@@ -1,0 +1,24 @@
+Obtaining file:///workspace/scratch/febf52cf2e0e/CodeRL
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: coderl-optimizer
+  Building editable for coderl-optimizer (pyproject.toml): started
+  Building editable for coderl-optimizer (pyproject.toml): finished with status 'done'
+  Created wheel for coderl-optimizer: filename=coderl_optimizer-2.0.0-0.editable-py3-none-any.whl size=2771 sha256=e9980268b26beec75f3dbb099a0d19af929b311aa99d3248099b252d853febcf
+  Stored in directory: /tmp/pip-ephem-wheel-cache-xi2whl3_/wheels/e7/55/a9/6cfaaa75a24edc6c428f960bde6aa8057d230bafb22b8e972d
+Successfully built coderl-optimizer
+Installing collected packages: coderl-optimizer
+  Attempting uninstall: coderl-optimizer
+    Found existing installation: coderl-optimizer 1.0.0
+    Uninstalling coderl-optimizer-1.0.0:
+      Successfully uninstalled coderl-optimizer-1.0.0
+Successfully installed coderl-optimizer-2.0.0
+
+[notice] A new release of pip is available: 25.0.1 -> 26.2.1
+[notice] To update, run: python -m pip install --upgrade pip

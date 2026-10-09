@@ -1,0 +1,59 @@
+INFO:     Started server process [18]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:55273 (Press CTRL+C to quit)
+INFO:     127.0.0.1:42318 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35898 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56470 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56470 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49796 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49796 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40054 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40054 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40054 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40054 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40054 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58432 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58432 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58432 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58432 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58432 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44710 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44710 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44710 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44710 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44710 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48158 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48158 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48158 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48158 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38880 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38880 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38880 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38880 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38880 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50950 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50950 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50950 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50950 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50950 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40034 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40034 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40034 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40034 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54152 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59616 - "POST /compile HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59616 - "POST /compare HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59616 - "POST /compare HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [18]

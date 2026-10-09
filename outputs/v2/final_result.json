@@ -1,0 +1,38 @@
+{
+  "primary_comparison": {
+    "shared_valid_tasks": 22,
+    "before_optimization_rate": 0.0,
+    "after_optimization_rate": 0.13636363636363635,
+    "optimization_rate_gain_percentage_points": 13.636363636363635,
+    "optimization_rate_relative_gain_percent": null,
+    "runtime_reduction_vs_initial_percent": 8.001014559679998,
+    "identical_selected_programs": 19,
+    "identical_program_runtime_ratio": 1.0,
+    "small_sample_warning": "pilot estimates; native subprocess timings may be noisy",
+    "matching_attempt_budget": true,
+    "matching_trials": true
+  },
+  "after": {
+    "requested_programs": 24,
+    "baseline_valid_programs": 22,
+    "excluded_invalid_baselines": 2,
+    "correct_optimizations": 3,
+    "correct_optimization_rate": 0.13636363636363635,
+    "geometric_mean_speedup_all_valid_programs": 1.086968508635025,
+    "runtime_reduction_from_geomean": 0.08001014559679998,
+    "output_correctness_selected": 1.0,
+    "threshold": 0.05,
+    "attempt_budget": 3,
+    "trials": 21,
+    "correctness_scope": "all cases in the supplied task split; see dataset provenance; not formal equivalence",
+    "measurement": "paired randomized native wall-clock timings including process startup",
+    "selection": "frozen outputs of the original three-proposal search; fresh timings, no retuning"
+  },
+  "valid_case_count": 2171,
+  "requested_case_count": 2379,
+  "software_tests_passed": 20,
+  "scope": "small development pilot on held-out training problems; not GRPO-only causality",
+  "checkpoint": "bounded GRPO policy plus pretrained SFT fallback",
+  "base_weights_bundled": false,
+  "confirmation_report": "confirmation/comparison.json"
+}

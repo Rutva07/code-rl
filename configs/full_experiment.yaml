@@ -1,0 +1,17 @@
+dataset: PIE C++ / CodeNet public tests
+seed: 42
+planner: edit_policy
+grpo:
+  steps: 12501
+  group_size: 4
+  sampled_trajectories: 50004
+  learning_rate: 0.003
+  clip: 0.2
+  beta: 0.02
+  update_epochs_per_group: 2
+evaluation:
+  attempt_budget: 1
+  trials: 11
+  minimum_runtime_reduction: 0.05
+  require_positive_bootstrap_lower_bound: true
+  accept_only_all_public_tests_pass: true

@@ -1,0 +1,18 @@
+[
+  {
+    "task_id": "p03952:s632935760",
+    "feedback": {
+      "correct": false,
+      "failure": {
+        "program": "baseline",
+        "test": "input.0",
+        "actual": "Yes\n1\n2\n3\n4\n5\n6\n7\n",
+        "expected": "Yes\n1\n6\n3\n7\n4\n5\n2\n",
+        "stderr": "",
+        "timed_out": false
+      },
+      "reward": -1.0,
+      "accepted": false
+    }
+  }
+]

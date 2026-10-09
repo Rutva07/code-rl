@@ -1,0 +1,18 @@
+[
+  {
+    "task_id": "p01417:s999365322",
+    "feedback": {
+      "correct": false,
+      "failure": {
+        "program": "baseline",
+        "test": "input.11",
+        "actual": "20000.00000000000000000000\n",
+        "expected": "20000.0000000\n\n",
+        "stderr": "",
+        "timed_out": false
+      },
+      "reward": -1.0,
+      "accepted": false
+    }
+  }
+]

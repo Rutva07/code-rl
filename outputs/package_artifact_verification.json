@@ -1,0 +1,9 @@
+{
+  "dataset_hashes_verified": 399,
+  "v2_dataset_hashes_verified": 15719,
+  "v2_sampled_trajectories": 50004,
+  "v2_independent_candidate_evaluations": 151,
+  "split_problem_ids_disjoint": true,
+  "sampled_trajectories": 50004,
+  "independent_candidate_evaluations": 56
+}

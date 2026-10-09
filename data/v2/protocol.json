@@ -1,0 +1,61 @@
+{
+  "seed": 42,
+  "heldout_problem_ids": [
+    "p00277",
+    "p00431",
+    "p01341",
+    "p01680",
+    "p02630",
+    "p02676",
+    "p02695",
+    "p02714",
+    "p02802",
+    "p02898",
+    "p02946",
+    "p03089",
+    "p03146",
+    "p03161",
+    "p03180",
+    "p03275",
+    "p03293",
+    "p03313",
+    "p03420",
+    "p03649",
+    "p03697",
+    "p03730",
+    "p03796",
+    "p04030"
+  ],
+  "validation_problem_ids": [
+    "p02587",
+    "p02639",
+    "p03375",
+    "p03415",
+    "p03460",
+    "p03947"
+  ],
+  "prepared": {
+    "train": {
+      "tasks": 64,
+      "cases": 437
+    },
+    "test": {
+      "tasks": 24,
+      "cases": 2379
+    }
+  },
+  "sft_pairs": 512,
+  "sft_problems": 220,
+  "test_selection": "first 24 unique test problems, source <=1800 chars, excluding legacy train and validation",
+  "train_selection": "32 pause-present and 32 pause-absent unique TRAIN problems; source <=1800 chars; hash order",
+  "sft_selection": "512 unique TRAIN sources <=600 chars with target <=600 chars; at most four per problem; hash order",
+  "correctness": "all metadata usable_case_ids on held-out problems, token-exact expected outputs",
+  "evaluation_attempts": 3,
+  "evaluation_trials": 11,
+  "acceptance_threshold": 0.05,
+  "merged_archive_url": "https://drive.google.com/uc?id=1evBDJapwRvCQK6VUCTV8ZE9WG2k3QJQr",
+  "merged_archive_sha256": "02f21225ba963ec9de89b3a5e42f2e9647d8333b717a02cf5bd8b4d088b8309c",
+  "test_cases_include_dataset_generated_inputs": true,
+  "new_synthetic_cases_added": false,
+  "attribution": "end-to-end system revision; improvement is not automatically attributable to GRPO"
+}

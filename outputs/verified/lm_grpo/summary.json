@@ -1,0 +1,11 @@
+{
+  "mode": "token_level_grpo",
+  "model": "ByteLM",
+  "steps": 2,
+  "sampled_trajectories": 8,
+  "informative_groups": 0,
+  "seed": 42,
+  "seconds": 2.319632053375244,
+  "target_code_visible_to_actor": false,
+  "max_new_tokens": 32
+}

@@ -1,0 +1,6 @@
+{
+  "real_Qwen_LoRA_reload": true,
+  "completion_scoring_finite": true,
+  "response_tokens": 2,
+  "logit_selection_supported": true
+}
