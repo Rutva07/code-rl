@@ -133,5 +133,4 @@ See [docs/RUNNING.md](docs/RUNNING.md) for complete training, evaluation,
 confirmation and individual optimization commands. The main edit experiment can
 run without downloading base model weights. The pretrained fallback uses the
 included adapters plus the pinned model downloader. Linux/POSIX and g++ are
-required. Optional Docker configuration is supplied, but its build was not run
-because Docker was unavailable here.
+required. Docker configuration is not complete.
